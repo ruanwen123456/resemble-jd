@@ -100,6 +100,7 @@ s,i,em{
     /*list-style: none;*/
     float: left;
     margin-right: 5px;
+
 }
 .topNav .jd,.topNav .fore {
     padding: 0 20px 0 10px;
@@ -139,3 +140,81 @@ s,i,em{
 .topbanner .deleBtn:hover{
     background-position: bottom;
 }
+/*logo搜索界面开始*/
+/*logo*/
+.w .jdlogo{
+    width: 360px;
+    height: 75px;
+    background-color: red;
+    float: left;
+    padding-top: 25px;
+    background: url("../images/logo.png") no-repeat 0 25px;
+    position: relative;
+}
+.jdlogo .jd-a {
+    text-indent: -999px;
+    display: block;
+    width: 260px;
+    height: 60px;
+}
+/*logo右边*/
+.w .jdlogo .double11{
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    top: 10px;
+    left: 168px;
+    background-color: red;
+    background: url("../images/dong.gif") no-repeat;
+}
+/*中间*/
+.w .middle {
+    width: 538px;
+    height: 75px;
+    /*background-color: cyan;*/
+    float: left;
+}
+.middle .search {
+    width: 538px;
+    height: 35px;
+    margin-top: 25px;
+    float: left;
+}
+.search input{
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+.search button{
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    float: left;
+    font: 16px/36px "microsoft yahei";
+    color: #fff;
+    cursor: pointer;
+}
+/*logo下的导航栏*/
+.middle .searchNav {
+    margin-top: 5px;
+    float: left;
+}
+.middle .searchNav li{
+    float: left;
+    margin-left: 5px;
+}
+
+/*购物车*/
+.w .buycar {
+    width: 94px;
+    height: 32px;
+    float: right;
+    border: 1px solid #DFDFDF;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/*logo搜索界面结束*/
