@@ -210,11 +210,42 @@ s,i,em{
 
 /*购物车*/
 .w .buycar {
-    width: 94px;
+    width: 96px;
     height: 32px;
+    padding-left: 43px;
     float: right;
     border: 1px solid #DFDFDF;
-    margin-top: 5px;
+    margin-top: 28px;
     margin-right: 5px;
+    line-height: 32px;
+    position: relative;
+}
+.buycar .icon1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 16px;
+    height: 13px;
+    background: url("../images/sprite.png") no-repeat 0px -59px;
+}
+.buycar .icon2 {
+    font: 400 15px/15px simsun;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+.buycar .icon3 {
+    position: absolute;
+    right: 40px;
+    top:-4px;
+    width: 16px;
+    height: 14px;
+    font-size: 12px;
+    background-color: #C81623;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    /*设置圆角*/
+    border-radius: 7px 7px 7px 0;
 }
 /*logo搜索界面结束*/
