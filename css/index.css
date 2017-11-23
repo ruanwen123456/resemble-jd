@@ -1,0 +1,135 @@
+.bigBanner {
+    position: relative;
+}
+
+.bigBanner a{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url("../images/banner.jpg") no-repeat top center;
+}
+
+/*轮播图*/
+.slider{
+    width: 730px;
+    height: 453px;
+    /*background-color: cyan;*/
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.slider .circle{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -66px;
+
+}
+.slider .circle li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    text-align: center;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.circle-defult{
+    background-color: #B61B1F;
+}
+.arrow .arrow-left,.arrow .arrow-right{
+    position: absolute;
+    top:50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    font: 500 18px "宋体";
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    line-height: 62px;
+}
+.arrow .arrow-left{
+    left: 0;
+}
+.arrow .arrow-right{
+    right: 0;
+}
+.arrow .arrow-left:hover,.arrow .arrow-right:hover{
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+}
+
+/*新闻*/
+.main-news{
+    position: relative;
+    float: right;
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    /*background-color: cyan;*/
+    margin-top: 12px;
+}
+.main-news .jd-report{
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.main-news .report-title ,.main-news .lifeService-title{
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 43px;
+}
+.report-title h3,.lifeService-title h3{
+    font: 14px "microsoft yahei";
+    float: left;
+    line-height: 43px;
+    padding-left: 10px;
+}
+.report-title a{
+    float: right;
+}
+.report-content ul{
+    padding: 8px 0 0 10px;
+}
+.report-content li{
+
+    line-height: 28px;
+}
+.report-content li span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.lifeService-content{
+    height: 251px;
+    width: 248px;
+    overflow: hidden;
+}
+.lifeService-content a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+.lifeService-content i{
+    width: 25px;
+    height: 25px;
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+    position: absolute;
+    top: 12px;
+    left: 18px;
+}
+.lifeService-content ul {
+    width: 252px;
+}
+.lifeService-content li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    margin-left: -1px;
+    float: left;
+}

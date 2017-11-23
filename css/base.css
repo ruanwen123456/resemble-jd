@@ -264,13 +264,40 @@ s,i,em{
     width: 210px;
     height: 44px;
     float: left;
-    background-color: #B1191A;
+    position: relative;
+    z-index: 10;
+    overflow: visible;
 }
 .jdNav .jdNav-left a{
+    display: block;
     padding-left: 10px;
     color: #fff;
     font: 400 15px/44px "microsoft yahei";
     line-height: 44px;
+    background-color: #B1191A;
+}
+.jdNav .jdNav-left .dropdown{
+    height: 465px;
+    margin-top: 2px;
+}
+.jdNav .jdNav-left .items{
+    background-color: #C81623;
+    color: #fff;
+    height: 31px;
+    font: 15px "微软雅黑";
+    line-height: 31px;
+    padding: 0 10px;
+
+}
+.jdNav .jdNav-left .items:hover{
+    background-color: #fff;
+    color: #C81623;
+}
+.jdNav .jdNav-left .items h3{
+    float: left;
+}
+.jdNav .jdNav-left .items span{
+    float: right;
 }
 .jdNav .jdNav-middle {
     /*width: 465px;*/
